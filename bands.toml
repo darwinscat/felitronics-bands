@@ -1,0 +1,43 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# THE NAMED BANDS — one table for every Felitronics product that names an EQ band (tabbyEQ, the mastering core, its web and
+# desktop shells). A band's key is permanent: products, saved settings and texts address it, so a key is never renamed or
+# reused. Numbers here are sound: a product that renders a band takes them from this file, and a change is a new release.
+#
+# type   "tilt" (first-order shelves about hz: lows −gain, highs +gain), "lowShelf", "highShelf", "bell"
+# hz     the pivot, corner or centre, Hz
+# q      the shelf's or bell's Q (not used by "tilt")
+# The names and the short lines live in text/<lang>.toml, one file per language, keyed by the same keys.
+
+[bands.tilt]
+type = "tilt"
+hz = 1000
+
+[bands.low]
+type = "lowShelf"
+hz = 80
+q = 0.6
+
+[bands.body]
+type = "bell"
+hz = 160
+q = 0.7
+
+[bands.mud]
+type = "bell"
+hz = 300
+q = 0.8
+
+[bands.forward]
+type = "bell"
+hz = 3000
+q = 0.7
+
+[bands.brightness]
+type = "highShelf"
+hz = 8000
+q = 0.6
+
+[bands.air]
+type = "highShelf"
+hz = 12000
+q = 0.6

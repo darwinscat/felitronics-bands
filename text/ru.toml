@@ -1,0 +1,31 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# ru — the canon. name: the knob's name; short: one line beside the band's point and in the tooltip (a few words).
+# Polite or impersonal, never «ты».
+
+[tilt]
+name = "Баланс тона"
+short = "Весь звук темнее или светлее"
+
+[low]
+name = "Низ"
+short = "Фундамент ниже 80 Гц"
+
+[body]
+name = "Тело"
+short = "Плотность и тепло около 160 Гц"
+
+[mud]
+name = "Грязь"
+short = "Убрать кашу около 300 Гц"
+
+[forward]
+name = "Вперёд"
+short = "Разборчивость и напор около 3 кГц"
+
+[brightness]
+name = "Яркость"
+short = "Блеск выше 8 кГц"
+
+[air]
+name = "Воздух"
+short = "Простор выше 12 кГц"

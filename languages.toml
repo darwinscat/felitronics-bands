@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# The languages every band speaks: each one is a text/<code>.toml with every band's name and short line. ru is the
+# canon (written first), the others follow it. A language joins this list the day its file is whole.
+languages = ["ru", "en"]

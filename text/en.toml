@@ -1,0 +1,30 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# en — follows ru. name: the knob's name; short: one line beside the band's point and in the tooltip (a few words).
+
+[tilt]
+name = "Tone balance"
+short = "The whole sound darker or brighter"
+
+[low]
+name = "Low"
+short = "The foundation below 80 Hz"
+
+[body]
+name = "Body"
+short = "Density and warmth around 160 Hz"
+
+[mud]
+name = "Mud"
+short = "Clear the mud around 300 Hz"
+
+[forward]
+name = "Forward"
+short = "Clarity and push around 3 kHz"
+
+[brightness]
+name = "Brightness"
+short = "Sparkle above 8 kHz"
+
+[air]
+name = "Air"
+short = "Space above 12 kHz"
