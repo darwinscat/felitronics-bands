@@ -2,7 +2,7 @@
 # en — follows ru. name: the knob's name; short: one line beside the band's point and in the tooltip (a few words).
 
 [tilt]
-name = "Tone balance"
+name = "Tilt"
 short = "The whole sound darker or brighter"
 
 [low]
